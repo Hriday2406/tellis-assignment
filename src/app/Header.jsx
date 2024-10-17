@@ -1,9 +1,9 @@
-"use-client";
+"use client";
 import Image from "next/image";
 
 export default function Header() {
   return (
-    <header className="flex">
+    <header className="fixed z-20 flex w-screen">
       <div className="px-20 py-8 bg-theme-1">
         <Image src={"/logo.svg"} alt="Logo" width="190" height="200" />
       </div>
@@ -81,7 +81,7 @@ export default function Header() {
             </ul>
           </div>
         </div>
-        <div className="flex items-center justify-between pr-48 text-sm font-medium border-b-2 pl-7 grow">
+        <div className="flex items-center justify-between pr-48 text-sm font-medium bg-white pl-7 grow">
           <ul className="flex gap-7">
             <li className="cursor-pointer hover:text-theme-1">HOME +</li>
             <li className="cursor-pointer hover:text-theme-1">ABOUT US +</li>

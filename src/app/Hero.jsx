@@ -1,4 +1,4 @@
-"use-client";
+"use client";
 import Image from "next/image";
 import Header from "./Header";
 
@@ -6,7 +6,7 @@ export default function Hero() {
   return (
     <div className="h-screen">
       <Header />
-      <section className="relative flex justify-center bg-smoke-2 ">
+      <section className="relative flex justify-center pt-2 pb-12 mt-32 overflow-hidden bg-smoke-2">
         <Image
           src={"/img/hero bg.png"}
           alt="Hero bg"
@@ -32,20 +32,29 @@ export default function Hero() {
               EXPLORE SERVICES -
             </button>
           </div>
-          <Image
-            src={"/img/hero model.png"}
-            alt="Hero model"
-            height="1000"
-            width="750"
-            className="relative"
-          />
+          <div className="relative">
+            <Image
+              src={"/img/flower.png"}
+              alt="Hero flower"
+              height="1000"
+              width="125"
+              className="absolute z-10 left-16"
+            />
+            <Image
+              src={"/img/hero model.png"}
+              alt="Hero model"
+              height="1000"
+              width="750"
+              className="relative"
+            />
+          </div>
         </div>
         <Image
           src={"/img/flower line.png"}
           alt="Hero flower line"
           height="1000"
           width="1920"
-          className="absolute -bottom-20 "
+          className="absolute -bottom-12 "
         />
       </section>
     </div>
