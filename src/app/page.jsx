@@ -4,6 +4,7 @@ import Hero from "./Hero";
 import Services from "./Services";
 import AboutUs from "./AboutUs";
 import FunFact from "./FunFacts";
+import Gallery from "./Gallery";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Services />
       <AboutUs />
       <FunFact />
+      <Gallery />
 
       <Footer />
     </div>

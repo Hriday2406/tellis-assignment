@@ -171,7 +171,7 @@ export default function Footer() {
                   className="p-5 text-sm bg-gray-800"
                   placeholder="Enter your email"
                 />
-                <button className="py-5 text-sm font-bold bg-theme-1">
+                <button className="py-5 text-sm font-bold bg-theme-1 hover:bg-theme-2">
                   SUBSCRIBE NOW →
                 </button>
               </div>

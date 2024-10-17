@@ -28,7 +28,7 @@ export default function Hero() {
             <h1 className="text-7xl font-black w-[600px]">
               Elevate Your Body And Mind With Our Spa Massages
             </h1>
-            <button className="px-5 py-4 font-sans text-white bg-theme-1">
+            <button className="z-20 px-5 py-4 font-sans text-white bg-theme-1 hover:bg-theme-2">
               EXPLORE SERVICES →
             </button>
           </div>
