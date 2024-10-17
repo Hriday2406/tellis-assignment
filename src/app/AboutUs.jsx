@@ -80,7 +80,7 @@ export default function AboutUs() {
           </div>
           <p className="text-gray-500">
             We also offer private rooms for more intimate treatments and
-            couples' packages for a romantic escape.
+            couples&apos; packages for a romantic escape.
           </p>
           <button className="self-start py-4 font-sans text-white px-7 bg-theme-1">
             DISCOVER MORE →

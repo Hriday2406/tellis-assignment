@@ -163,7 +163,7 @@ export default function Footer() {
             <div className="flex flex-col gap-5">
               <p className="leading-6 text-body">
                 Sign Up to get updates & news about us. Get Latest Deals from
-                Walker's Inbox to our mail address.
+                Walker&apos;s Inbox to our mail address.
               </p>
               <div className="flex flex-col gap-3">
                 <input

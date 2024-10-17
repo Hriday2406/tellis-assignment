@@ -3,6 +3,7 @@ import Footer from "./Footer";
 import Hero from "./Hero";
 import Services from "./Services";
 import AboutUs from "./AboutUs";
+import FunFact from "./FunFacts";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Hero />
       <Services />
       <AboutUs />
+      <FunFact />
 
       <Footer />
     </div>

@@ -113,7 +113,7 @@ export default function Header() {
               width="45"
               className="cursor-pointer"
             />
-            <button className="px-5 py-4 text-white bg-theme-1">
+            <button className="px-5 py-4 text-white bg-theme-1 hover:bg-theme-2">
               APPOINTMENT NOW →
             </button>
           </div>
