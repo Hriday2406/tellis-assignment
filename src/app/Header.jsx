@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <header className="fixed z-20 flex w-screen">
       <div className="px-20 py-8 bg-theme-1">
-        <Image src={"/logo.svg"} alt="Logo" width="190" height="200" />
+        <Image src={"/svgs/logo.svg"} alt="Logo" width="190" height="200" />
       </div>
       <div className="flex flex-col grow">
         <div className="py-4 pr-48 text-sm font-normal bg-black text-body pl-7">
@@ -114,7 +114,7 @@ export default function Header() {
               className="cursor-pointer"
             />
             <button className="px-5 py-4 text-white bg-theme-1">
-              APPOINTMENT NOW -
+              APPOINTMENT NOW →
             </button>
           </div>
         </div>

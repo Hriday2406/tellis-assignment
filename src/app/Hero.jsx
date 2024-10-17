@@ -29,7 +29,7 @@ export default function Hero() {
               Elevate Your Body And Mind With Our Spa Massages
             </h1>
             <button className="px-5 py-4 font-sans text-white bg-theme-1">
-              EXPLORE SERVICES -
+              EXPLORE SERVICES →
             </button>
           </div>
           <div className="relative">
