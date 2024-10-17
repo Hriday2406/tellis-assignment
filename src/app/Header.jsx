@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Header() {
   return (
-    <header className="fixed z-20 flex w-screen">
+    <header className="fixed z-20 flex w-screen shadow-[1.95px_1.95px_2.6px_rgba(0,0,0,0.15)] ">
       <div className="px-20 py-8 bg-theme-1">
         <Image src={"/svgs/logo.svg"} alt="Logo" width="190" height="200" />
       </div>

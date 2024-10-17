@@ -19,7 +19,7 @@ export default function Hero() {
             <div className="flex gap-2 pl-2 text-xl font-bold text-theme-1">
               <Image
                 src={"/svgs/flower.svg"}
-                alt="search"
+                alt="flower"
                 height="25"
                 width="25"
               />
