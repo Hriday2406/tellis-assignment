@@ -1,15 +1,14 @@
-import localFont from "next/font/local";
 import "./globals.css";
+import { Cormorant_Garamond, DM_Sans } from "next/font/google";
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
+const cormorantGaramond = Cormorant_Garamond({
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700"],
+  variable: "--font-cormorantGaramond",
 });
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
+const dMSans = DM_Sans({
+  subsets: ["latin"],
+  variable: "--font-dMSans",
 });
 
 export const metadata = {
@@ -21,7 +20,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${dMSans.variable} ${cormorantGaramond.variable} font-sans`}
       >
         {children}
       </body>

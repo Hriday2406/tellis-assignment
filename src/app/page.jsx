@@ -1,12 +1,11 @@
 "use client";
-import Image from "next/image";
-import Header from "./Header";
+import Hero from "./Hero";
 
 export default function Home() {
   return (
-    <>
-      <Header />
-    </>
+    <div className="flex flex-col items-stretch gap-[120px]">
+      <Hero />
+    </div>
   );
 }
 
